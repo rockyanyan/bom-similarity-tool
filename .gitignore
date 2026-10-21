@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- PyInstaller 产物 ----
+build/
+dist/
+*.spec.bak
+
+# ---- 运行时数据（SQLite 方案库、备份）----
+data/
+*.db
+*.db-journal
+
+# ---- 开发自检截图 ----
+.snapshots/
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 项目内部工作数据 ----
+.workbuddy/
