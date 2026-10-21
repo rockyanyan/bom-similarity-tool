@@ -15,6 +15,32 @@ Windows 桌面应用，免安装单文件 exe。深色界面，本地 SQLite 存
 
 > Windows 首次运行若提示「已保护你的电脑」，点「更多信息 → 仍要运行」即可（未做代码签名）。
 
+## 界面预览
+
+**相似度对比** — 加权得分、差异分类统计、高权重物料标红，支持导出 Excel 差异报告：
+
+![相似度对比](docs/screenshots/03-compare.png)
+
+**导入 BOM** — 列映射、清洗选项、异常行标记、入库前预览：
+
+![导入 BOM](docs/screenshots/02-import.png)
+
+**BOM 方案库** — 整份 BOM 入库，统计面板 + 方案检索：
+
+![BOM 方案库](docs/screenshots/01-library.png)
+
+**全库批量检索** — 上传新 BOM 一键对比全库，TOP N 排行：
+
+![全库批量检索](docs/screenshots/04-batch.png)
+
+**替代物料组** — 自动解析 + 手工维护等价物料：
+
+![替代物料组](docs/screenshots/05-alt-groups.png)
+
+**参数设置** — 算法参数与物料权重规则：
+
+![参数设置](docs/screenshots/06-settings.png)
+
 ## 功能
 
 **BOM 方案库**
