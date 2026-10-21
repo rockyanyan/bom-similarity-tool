@@ -4,6 +4,17 @@
 
 Windows 桌面应用，免安装单文件 exe。深色界面，本地 SQLite 存储，数据不出本机。
 
+## 下载
+
+前往 [Releases](https://github.com/rockyanyan/bom-similarity-tool/releases/latest) 下载：
+
+| 文件 | 说明 |
+| --- | --- |
+| `BOM-Similarity-Tool-v1.0.0.exe` | 程序本体，免安装，约 39 MB |
+| `demo-data.zip` | 演示 BOM 数据，解压后可直接导入 |
+
+> Windows 首次运行若提示「已保护你的电脑」，点「更多信息 → 仍要运行」即可（未做代码签名）。
+
 ## 功能
 
 **BOM 方案库**
@@ -46,7 +57,7 @@ Windows 桌面应用，免安装单文件 exe。深色界面，本地 SQLite 存
 
 ## 快速开始
 
-1. 双击 `BOM相似度对比工具.exe`（首次运行会在同级目录创建 `data/bom_library.db`）
+1. 下载并双击 `BOM-Similarity-Tool-v1.0.0.exe`（首次运行会在同级目录创建 `data/bom_library.db`）
 2. 「导入 BOM」选择文件 → 确认列映射 → 预览清洗结果 → 填写方案名称后入库
 3. 「相似度对比」左侧选择库内方案 A，右侧选库内方案或上传新 BOM，点「开始对比」
 4. 查看差异明细，按需「导出 Excel 差异报告」
